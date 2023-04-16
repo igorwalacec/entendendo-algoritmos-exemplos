@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C7B5FC7-0F21-43C0-8357-7CE47227979B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritmos", "src\Algoritmos\Algoritmos.csproj", "{6ACC77E5-96C8-4237-8E88-384E1459D927}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3A635EC7-B294-4712-815C-D65BBF13D510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algoritmos.Tests", "tests\Algoritmos.Tests\Algoritmos.Tests.csproj", "{7E707909-85ED-46CB-B145-90973860A255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ACC77E5-96C8-4237-8E88-384E1459D927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACC77E5-96C8-4237-8E88-384E1459D927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACC77E5-96C8-4237-8E88-384E1459D927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACC77E5-96C8-4237-8E88-384E1459D927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E707909-85ED-46CB-B145-90973860A255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E707909-85ED-46CB-B145-90973860A255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E707909-85ED-46CB-B145-90973860A255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E707909-85ED-46CB-B145-90973860A255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ACC77E5-96C8-4237-8E88-384E1459D927} = {6C7B5FC7-0F21-43C0-8357-7CE47227979B}
+		{7E707909-85ED-46CB-B145-90973860A255} = {3A635EC7-B294-4712-815C-D65BBF13D510}
+	EndGlobalSection
+EndGlobal
