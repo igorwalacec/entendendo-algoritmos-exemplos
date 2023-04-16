@@ -35,6 +35,6 @@ public class BuscasTests
 
         var resultado = _buscas.PesquisaBinaria(listaNumeros, "Igor");
         
-        Assert.Equal(null, resultado);
+        Assert.Null(resultado);
     }
 }
